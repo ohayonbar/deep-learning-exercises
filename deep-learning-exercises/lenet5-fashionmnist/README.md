@@ -4,7 +4,7 @@ This implementation compares different regularization techniques applied to LeNe
 
 ## Training the Models
 
-To train all models, run the complete code in Google Colab. The code will automatically:
+To train all models, run the complete code in Google Colab. The code will:
 - Train a plain LeNet5 model without regularization
 - Train LeNet5 with Dropout (rate=0.5) applied to fully connected layers
 - Train LeNet5 with Weight Decay (L2 regularization, rate=0.001)
@@ -14,7 +14,7 @@ Each model is trained for 20 epochs using the Adam optimizer with a learning rat
 
 ## Testing with Saved Weights
 
-The code automatically saves model weights after training. To test using saved weights:
+The code saves model weights after training. To test using saved weights:
 
 ```python
 # For plain LeNet5
